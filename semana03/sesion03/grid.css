@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contenedor {
+    display: grid;
+    grid-template-areas:
+        "fresa fresa fresa"
+        'nav nav nav'
+        'aside section section'
+        'aside section2 section2'
+        'footer footer footer';
+    gap: 30px;
+
+    p {
+        background-color: blue;
+    }
+}
+
+#contenedor p:nth-child(1) {
+    grid-area: fresa;
+}
+
+#contenedor p:nth-child(2) {
+    grid-area: nav;
+}
+
+#contenedor p:nth-child(3) {
+    grid-area: aside;
+}
+
+#contenedor p:nth-child(4) {
+    grid-area: section;
+}
+
+#contenedor p:nth-child(5) {
+    grid-area: section2;
+}
+
+#contenedor p:nth-child(6) {
+    grid-area: footer;
+}

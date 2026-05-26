@@ -1,0 +1,43 @@
+body {
+    background-color: #1a1a1a;
+    color: rgb(49, 193, 186);
+}
+
+p {
+    /* color de la letra */
+    /* tamaño de letra */
+    /* negrita */
+    font-weight: bold;
+    /* cursiva */
+    font-style: italic;
+    /* tipo de leta */
+    /* font-family: ; */
+    /* alinear un texto */
+    text-align: justify;
+    /* cambiar el tamaño del largo o ancho */
+    width: 500px;
+    /* cambiar altura del elemento */
+    height: 400px;
+    /* relleno */
+    padding: 30px;
+    /* empujar hacia afuera otros elementos */
+    margin: 100px;
+    border: 10px solid black;
+    background-color: hsl(180, 100%, 10%);
+    border-radius: 20px;
+    box-shadow: -100px 0 100px 0 rgb(44, 77, 104);
+    /* 1er numero: pos x */
+    /* 2do numero: pos y */
+    /* 3er numero: blur */
+    /* 4to numero: gutter */
+    box-sizing: border-box;
+}
+
+.ejemplo {
+    color: red;
+}
+
+#unico {
+    color: blue;
+}
+
