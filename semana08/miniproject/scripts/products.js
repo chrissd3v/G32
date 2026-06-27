@@ -39,7 +39,7 @@ const render = async () => {
   products.forEach((p) => {
     createCard(p)
   })
-  console.log(products)
+  // console.log(products)
 }
 
 render()
