@@ -1,0 +1,39 @@
+body {
+    background-color: #F0F1FF;
+}
+
+#cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 2em;
+    row-gap: 4em;
+}
+
+.courseCard {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    gap: 1em;
+    padding: 2em;
+    padding-top: 0;
+
+    img {
+        margin-top: -28px;
+    }
+
+    b {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    a {
+        color: #F74780;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
